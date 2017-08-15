@@ -1650,7 +1650,7 @@ input {
     height: 200px;
     margin: 13px auto;
     overflow: hidden;
-    background: #efefef;
+    background: rgb(220, 220, 220);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
