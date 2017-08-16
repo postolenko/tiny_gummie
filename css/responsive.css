@@ -87,7 +87,7 @@
 	}
 
 	.form-box-2-block .inner {
-	    padding: 0 0 60px 0;
+	    padding: 0 0 12px 0;
 	}
 
 	.bottom-img-block img {
@@ -315,6 +315,11 @@
 
 	.form-box-2 {
 	    max-width: 560px;
+	    padding: 10px 3% 25px 3%;
+	}
+
+	.bottom-img-block img {
+	    display: none;
 	}
 
 }
@@ -577,11 +582,6 @@
 
 	.delivery-tooltip {
 	    width: 50%;
-	}
-
-	.bottom-img-block img {
-	    max-width: 346px;
-	    display: none;
 	}
 
 }
