@@ -17,6 +17,46 @@ $(document).ready(function() {
 
     });
 
+    $(function() {
+
+        $(".show_popup").click(function() {
+
+            $(".popups-block").fadeIn(300);
+
+        });
+
+        $(".close_popup").click(function() {
+
+            $(".popups-block").fadeOut(300);
+
+        });
+
+        $(this).keydown(function(eventObject){
+
+            if ( eventObject.which == 27) {
+
+               $(".popups-block").fadeOut(300);
+
+            }
+
+        });
+
+        $(document).mouseup(function (e){
+
+            hide_element = $(".popup");
+
+            if (!hide_element.is(e.target)
+
+                && hide_element.has(e.target).length === 0) {
+
+                $(".popups-block").fadeOut(300);
+
+            }
+
+        });
+
+    });
+
 
     function getFooterPosition() {
 
