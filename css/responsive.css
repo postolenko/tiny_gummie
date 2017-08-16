@@ -40,7 +40,9 @@ h1 span{font-size:65px;line-height:66px;}
 .two-cols-promo .col-1{text-align:left;}
 .two-cols-promo .santimetr-img{display:none !important;}
 .two-cols-promo .product-img{top:17px;right:2%;}
-.form_shape_2{right:-9px;}
+.form_shape_2{
+	right:-5px;
+}
 .counter-box .time-val span{width:40px;height:61px;padding-top:0px;background-position:0 3px;background-size:100%;}
 .product-shape-1{left:67px;}
 .product-shape-1{left:67px;}
