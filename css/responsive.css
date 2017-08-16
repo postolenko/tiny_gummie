@@ -51,6 +51,7 @@ h1 span{font-size:65px;line-height:66px;}
 .product-shape-4{left:-94px;}
 .product-shape-5{left:117px;}
 .product-shape-6{left:-29px;}
+.bottom-img-block {bottom: -54px;}
 }
 @media only screen and (max-width:900px){.shapes-promo{max-width:769px;}
 .shapes-promo .shape-tooltip-1,
