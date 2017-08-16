@@ -18,14 +18,6 @@ $(document).ready(function() {
     });
 
 
-    $(function() {
-
-
-        
-
-    });
-
-
     function getFooterPosition() {
 
         $(".wrapper").css({"min-height" : $(window).height() + "px"});

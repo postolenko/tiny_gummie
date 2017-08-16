@@ -1,13 +1,3 @@
-(function($){
-
-	$(window).on("load",function(){
-
-		$(".scroll").mCustomScrollbar();
-
-	});
-
-})(jQuery);
-
 $(document).ready(function() {
 
 	$(".testimonial-slider").not(".slick-initialized").slick({
@@ -16,8 +6,16 @@ $(document).ready(function() {
       speed: 700,
       slidesToShow: 1,
       fade: true,
-      autoplay: false,
-      // autoplaySpeed: 17000,
+      autoplay: true,
+      autoplaySpeed: 17000,
+      responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        adaptiveHeight: true
+	      }
+	    }
+	  ]
     });
 
 });
