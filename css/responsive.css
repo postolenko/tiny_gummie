@@ -132,6 +132,7 @@ background-position:-4% 13%;}
 .slick-arrow span{width:63px;height:63px;}
 .testimonial-txt p{font-size:17px;line-height:19px;text-align:center;}
 .delivery-tooltip{width:50%;}
+.footer {background-image: url(../img/footer_bg_resp.jpg);}
 }
 @media only screen and (max-width:480px){h1{font-size:32px;line-height:37px;text-align:center;}
 h1 span{font-size:40px;line-height:44px;}
