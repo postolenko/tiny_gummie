@@ -141,6 +141,9 @@ h4{padding:5px 0;}
 .two-cols-promo .col-1 img{width:65%;}
 .two-cols-promo .product-img{top:17px;right:-2%;}
 .product-tooltip{width:50%;}
+.img-box-full {display: none;}
+.shapes-promo .center-img {display: none;}
+.charset-img {display: none;}
 .product-tooltip .icon-box{width:116px;height:116px;}
 .delivery-tooltip .thumb-box p{font-size:15px;line-height:18px;}
 .delivery-tooltip .icon-box{display:block;width:116px;height:116px;}
