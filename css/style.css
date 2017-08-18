@@ -103,8 +103,13 @@ a:active{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:t
 .two-cols-promo .product-img{display:block;width:auto;height:auto;position:relative;right:-4%;}
 .form-box{display:block;width:100%;max-width:456px;padding:10px 3%;background:rgb(58, 75, 99);position:relative;text-align:center;-webkit-border-radius:17px;-moz-border-radius:17px;-ms-border-radius:17px;-o-border-radius:17px;border-radius:17px;}
 .two-cols-promo .form-box{margin:-4px 0 0 0;}
-.form-shape{position:absolute;top:0;-webkit-animation:vertical_amin_form_shape 5s infinite;-moz-animation:vertical_amin_form_shape 5s infinite;-o-animation:vertical_amin_form_shape 5s infinite;animation:vertical_amin_form_shape 5s infinite;}
-@keyframes vertical_amin_form_shape{0%{margin-top:-10px;}
+.form-shape{position:absolute;top:0;
+/*	-webkit-animation:vertical_amin_form_shape 5s infinite;
+	-moz-animation:vertical_amin_form_shape 5s infinite;
+	-o-animation:vertical_amin_form_shape 5s infinite;
+	animation:vertical_amin_form_shape 5s infinite;*/
+}
+/*@keyframes vertical_amin_form_shape{0%{margin-top:-10px;}
 50%{margin-top:20px;}
 100%{margin-top:-10px;}
 }
@@ -119,7 +124,7 @@ a:active{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:t
 @-o-keyframes vertical_amin_form_shape{0%{margin-top:-10px;}
 50%{margin-top:20px;}
 100%{margin-top:-10px;}
-}
+}*/
 .form_shape_1{top:41px;left:-84px;}
 .form_shape_2{top:28px;right:-41px;}
 .form-box h2{font-family:"MVideo", Arial, Verdana, sans-serif;font-size:22px;line-height:31px;font-weight:300;color:#ffffff;padding:0;}
@@ -174,8 +179,13 @@ input{display:block;width:100%;border:1px solid transparent;background:rgb(230, 
 .make-order-box .price-block:before{display:block;content:"";width:146px;height:52px;position:absolute;top:50%;left:-9%;margin:-26px 0 0 0;background-image:url(../img/callback_block_bg_01.png);background-position:center;background-size:100%;}
 .make-order-box .price-block:after{display:block;content:"";width:77px;height:29px;position:absolute;top:50%;right:3%;margin:-14px 0 0 0;background-image:url(../img/callback_block_bg_02.png);background-position:center;background-size:100%;}
 .make-order-box .price-block:before,
-.make-order-box .price-block:after{-webkit-animation:price-block_shape 5s infinite;-moz-animation:price-block_shape 5s infinite;-o-animation:price-block_shape 5s infinite;animation:price-block_shape 5s infinite;}
-@keyframes price-block_shape{0%{margin-top:-10px;}
+.make-order-box .price-block:after{
+/*	-webkit-animation:price-block_shape 5s infinite;
+	-moz-animation:price-block_shape 5s infinite;
+	-o-animation:price-block_shape 5s infinite;
+	animation:price-block_shape 5s infinite;*/
+}
+/*@keyframes price-block_shape{0%{margin-top:-10px;}
 50%{margin-top:10px;}
 100%{margin-top:-10px;}
 }
@@ -190,7 +200,7 @@ input{display:block;width:100%;border:1px solid transparent;background:rgb(230, 
 @-o-keyframes price-block_shape{0%{margin-top:-10px;}
 50%{margin-top:10px;}
 100%{margin-top:-10px;}
-}
+}*/
 .price-block p{display:inline-block;vertical-align:baseline;font-family:"Lobster", Arial, Verdana, sans-serif;font-size:40px;line-height:48px;font-weight:normal;color:#98d10b;}
 .make-order-box .price-block p.old-price{padding:3px 2%;font-family:"Lobster", Arial, Verdana, sans-serif;font-size:32px;line-height:38px;font-weight:normal;color:#ff4d4d;}
 .price-block .green-btn{display:inline-block;vertical-align:top;margin:9px 0;}
